@@ -1,0 +1,140 @@
+{
+  "source": "Engraving/Scores/FlashlightsInTheDark_Fall2026_DoricoTextCorrected.musicxml",
+  "output": "Engraving/Scores/FlashlightsInTheDark_Fall2026_PerformerScore.musicxml",
+  "source_sha256": "e7bc71c02f61fa09380c34da8c2668451b5ba5dd843e346f66a3fb01c7ccbff4",
+  "output_sha256": "cbacf120e3883b394c25bf4e3354b53a83400fba87a528f9e83d5f56ec60b276",
+  "score_validation": {
+    "part_ids": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "measure_counts": {
+      "P1": 151,
+      "P2": 151,
+      "P3": 151,
+      "P4": 151,
+      "P5": 151,
+      "P6": 151
+    },
+    "lyric_anchors": 1376,
+    "structure_fingerprint": "82a6cfbb1b1856cf5af9a733c04df58ee2eeaacd2e611213de1b45ec6df3e111"
+  },
+  "structure_matches": true,
+  "removed_break_attributes": {
+    "new-page": 0,
+    "new-system": 0,
+    "blank-page": 0,
+    "page-number": 0
+  },
+  "replaced_break_support_entries": 0,
+  "casting": {
+    "music_pages": 15,
+    "booklet_target_pages": 16,
+    "systems": 29,
+    "pages": [
+      [
+        "1-5",
+        "6-10"
+      ],
+      [
+        "11-14",
+        "15-18"
+      ],
+      [
+        "19-25",
+        "26-30"
+      ],
+      [
+        "31-34",
+        "35-37"
+      ],
+      [
+        "38-41",
+        "42-47"
+      ],
+      [
+        "48-53",
+        "54-56"
+      ],
+      [
+        "57-64",
+        "65-70"
+      ],
+      [
+        "71-75",
+        "76-79"
+      ],
+      [
+        "80-88"
+      ],
+      [
+        "89-92",
+        "93-97"
+      ],
+      [
+        "98-100",
+        "101-103"
+      ],
+      [
+        "104-107",
+        "108-114"
+      ],
+      [
+        "115-121",
+        "122-129"
+      ],
+      [
+        "130-132",
+        "133-139"
+      ],
+      [
+        "140-147",
+        "148-151"
+      ]
+    ],
+    "page_break_starts": [
+      11,
+      19,
+      31,
+      38,
+      48,
+      57,
+      71,
+      80,
+      89,
+      98,
+      104,
+      115,
+      130,
+      140
+    ],
+    "system_break_starts": [
+      6,
+      15,
+      26,
+      35,
+      42,
+      54,
+      65,
+      76,
+      93,
+      101,
+      108,
+      122,
+      133,
+      148
+    ],
+    "page_break_instances": 84,
+    "system_break_instances": 84,
+    "identical_across_parts": true
+  },
+  "colophon": {
+    "musicxml_credit_added": false,
+    "reliable_in_dorico": false,
+    "fallback": "MusicXML page credits are not a reliable way to force a trailing page in Dorico. After import, add page 16 natively with a page-template override and a text frame containing only approved edition and credit information."
+  }
+}

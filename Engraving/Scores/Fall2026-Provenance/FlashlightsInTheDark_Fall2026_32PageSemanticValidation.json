@@ -1,0 +1,216 @@
+{
+  "profile": "Fall 2026 32-page saddle-stitch performer score",
+  "source": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_StageEClean.musicxml",
+  "output": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_Dorico32PageCasted.musicxml",
+  "source_sha256": "a21c0bdce98afe6b365b641e3e5c36d45d66bbf7c222be4d325441ae2e7f06f7",
+  "output_sha256": "28eaade134594b196efd38d1d1f5a40504ba12176aaa373046ee6e0a3567b844",
+  "passed": true,
+  "source_provenance": {
+    "verified": true,
+    "stage": "E",
+    "report": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_StageECleanupReport.json",
+    "source_sha256_matches_report": true,
+    "fall_replacements": 388,
+    "lyric_routing_normalized": true,
+    "ensemble_direction_duplicates_removed": 3,
+    "redundant_page1_credits_removed": 3
+  },
+  "score_validation": {
+    "part_ids": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "measure_counts": {
+      "P1": 151,
+      "P2": 151,
+      "P3": 151,
+      "P4": 151,
+      "P5": 151,
+      "P6": 151
+    },
+    "lyric_anchors": 1376,
+    "structure_fingerprint": "82a6cfbb1b1856cf5af9a733c04df58ee2eeaacd2e611213de1b45ec6df3e111",
+    "note_count": 2787
+  },
+  "exact_checks": {
+    "score_shape_and_canonical_fingerprint": true,
+    "note_count_2787": true,
+    "six_parts_151_measures": true,
+    "lyric_anchors_1376": true,
+    "lyrics_text_attributes_and_routing_exact": true,
+    "all_388_fall_replacements_preserved": true,
+    "five_line_staff_overrides_exact": true,
+    "dynamics_exact": true,
+    "harmonies_exact": true,
+    "all_unapproved_directions_exact": true,
+    "page_furniture_values_preserved_in_metadata": true,
+    "casting_breaks_exact": true,
+    "full_noncasting_tree_exact_after_approved_normalizations": true
+  },
+  "hashes": {
+    "canonical_structure": "82a6cfbb1b1856cf5af9a733c04df58ee2eeaacd2e611213de1b45ec6df3e111",
+    "lyrics_and_routing": "81006922114e35ea63746808eb358a1bb14749841a17997f58ba4acf972fd97e",
+    "five_line_staff_overrides": "ca064d6819cdf8d45a07fd15809546c191ae124262d2418608cd8f3373bbccd8",
+    "dynamics": "64f62d7e95f8e6caff5976d62619bcc4fee1f00101cfdf540ac8b7e745ba357c",
+    "harmonies": "6cfdba4647947924b3c973b79a8de0cb05dee8b19ada4169311870d7fac31ced",
+    "unapproved_directions": "b03c5e09e4872b42a9484690c258b537aab99066b9b94af54ee212a0e49d6273",
+    "full_noncasting_tree_after_approved_normalizations": "852a7222fdb31cd21eb2f1056e529f8b944734599eeba821438fa55569be78b4"
+  },
+  "approved_changes": {
+    "page_furniture_only": [
+      {
+        "page": 1,
+        "credit_text_removed": "Set in 2076",
+        "credit_attributes_before": {
+          "page": "1"
+        },
+        "credit_words_attributes_before": {
+          "default-x": "719.667",
+          "default-y": "1810",
+          "font-family": "Academico",
+          "font-size": "11",
+          "justify": "center",
+          "valign": "top"
+        },
+        "metadata_field_added": "fall2026-project-subtitle",
+        "metadata_value": "Set in 2076",
+        "visible_source_after_import": "Dorico first-page template",
+        "reason": "Dorico first-page template supplies the visible subtitle."
+      },
+      {
+        "page": 1,
+        "credit_text_removed": "Commissioned by the Philharmonic Chorus of Madison",
+        "credit_attributes_before": {
+          "page": "1"
+        },
+        "credit_words_attributes_before": {
+          "default-x": "719.667",
+          "default-y": "1645",
+          "font-family": "Academico",
+          "font-size": "10.5",
+          "justify": "center",
+          "valign": "top"
+        },
+        "metadata_field_added": "fall2026-project-commission",
+        "metadata_value": "Commissioned by the Philharmonic Chorus of Madison",
+        "visible_source_after_import": "Dorico first-page template",
+        "reason": "Dorico first-page template supplies the visible commission line."
+      }
+    ],
+    "direction_text": {
+      "part": "P1",
+      "measure": 55,
+      "before": "reversed -impact sound event ",
+      "after": "reversed-impact sound event",
+      "source_word_spans": [
+        "reversed",
+        "-impact sound event"
+      ],
+      "reason": "Remove the erroneous space before the existing hyphen and the trailing space; retain the direction at the same musical position.",
+      "direction_attributes_preserved": true,
+      "offset_before_after": [
+        null,
+        null
+      ],
+      "staff_before_after": [
+        null,
+        null
+      ],
+      "playback_sound_elements_preserved": true,
+      "word_spans_after": [
+        "reversed-impact sound event"
+      ]
+    },
+    "unlogged_textual_differences": 0
+  },
+  "casting": {
+    "music_pages": 31,
+    "booklet_target_pages": 32,
+    "systems": 36,
+    "page_1_has_exactly_two_systems": true,
+    "paired_pages": [
+      1,
+      6,
+      20,
+      21,
+      27
+    ],
+    "single_system_pages": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      22,
+      23,
+      24,
+      25,
+      26,
+      28,
+      29,
+      30,
+      31
+    ],
+    "minimum_system_measures": 2,
+    "maximum_system_measures": 9,
+    "only_over_seven_system": "84-92 (m.84-88 tacet)",
+    "page_break_starts": [
+      11,
+      13,
+      15,
+      17,
+      21,
+      26,
+      32,
+      37,
+      40,
+      43,
+      46,
+      50,
+      53,
+      57,
+      62,
+      67,
+      71,
+      77,
+      84,
+      98,
+      104,
+      108,
+      110,
+      113,
+      115,
+      119,
+      130,
+      135,
+      140,
+      146
+    ],
+    "system_break_starts": [
+      7,
+      23,
+      93,
+      102,
+      125
+    ],
+    "page_break_instances": 180,
+    "system_break_instances": 30,
+    "identical_across_parts": true
+  }
+}

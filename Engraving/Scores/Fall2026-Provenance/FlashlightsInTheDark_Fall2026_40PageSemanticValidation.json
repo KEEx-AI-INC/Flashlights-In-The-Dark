@@ -1,0 +1,359 @@
+{
+  "profile": "Fall 2026 40-page saddle-stitch performer score",
+  "source": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_Dorico32PageCasted.musicxml",
+  "output": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_Dorico40PageCasted.musicxml",
+  "source_sha256": "28eaade134594b196efd38d1d1f5a40504ba12176aaa373046ee6e0a3567b844",
+  "output_sha256": "13100f95f471ef52e23bee1db91784cb2d6a5794e88f73c5a621fd964bb65827",
+  "passed": true,
+  "source_provenance": {
+    "verified": true,
+    "source_sha256": "28eaade134594b196efd38d1d1f5a40504ba12176aaa373046ee6e0a3567b844",
+    "expected_source_sha256": "28eaade134594b196efd38d1d1f5a40504ba12176aaa373046ee6e0a3567b844",
+    "source_validation_report": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_32PageSemanticValidation.json",
+    "source_validation_report_sha256": "b35c852f9c02da2ef96b1446b9cae7fa406387b646e5afeefca6d714e363e943",
+    "source_casting_report": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_32PageCastingReport.json",
+    "source_casting_report_sha256": "6df776df9d8c22b28cd087fbb7e2b1f4dddbec71d5e95d9c58fc475617ad9213",
+    "stage_e_report": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_StageECleanupReport.json",
+    "fall_replacements": 388,
+    "verification": {
+      "default_32_page_source": true,
+      "source_sha256_expected": true,
+      "validation_output_sha256_matches": true,
+      "casting_report_output_sha256_matches": true,
+      "source_validation_passed": true,
+      "all_source_exact_checks_passed": true,
+      "stage_e_provenance_verified": true,
+      "all_388_fall_replacements_verified": true,
+      "canonical_fingerprint_verified": true,
+      "source_noncasting_hash_verified": true
+    }
+  },
+  "score_validation": {
+    "part_ids": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "measure_counts": {
+      "P1": 151,
+      "P2": 151,
+      "P3": 151,
+      "P4": 151,
+      "P5": 151,
+      "P6": 151
+    },
+    "lyric_anchors": 1376,
+    "structure_fingerprint": "82a6cfbb1b1856cf5af9a733c04df58ee2eeaacd2e611213de1b45ec6df3e111",
+    "note_count": 2787
+  },
+  "exact_checks": {
+    "source_32_page_provenance_verified": true,
+    "six_parts_151_measures": true,
+    "note_count_2787": true,
+    "lyric_anchors_1376": true,
+    "canonical_musical_fingerprint": true,
+    "all_388_fall_replacements_preserved": true,
+    "lyrics_text_attributes_and_routing_exact": true,
+    "five_line_staff_states_exact": true,
+    "dynamics_exact": true,
+    "harmonies_exact": true,
+    "directions_exact": true,
+    "page_furniture_metadata_exact": true,
+    "casting_breaks_exact": true,
+    "system_only_starts_exact": true,
+    "frame_page_starts_exact": true,
+    "full_layout_only_equivalence": true
+  },
+  "hashes": {
+    "canonical_structure": "82a6cfbb1b1856cf5af9a733c04df58ee2eeaacd2e611213de1b45ec6df3e111",
+    "lyrics_and_routing": "81006922114e35ea63746808eb358a1bb14749841a17997f58ba4acf972fd97e",
+    "five_line_staff_states": "ca064d6819cdf8d45a07fd15809546c191ae124262d2418608cd8f3373bbccd8",
+    "dynamics": "64f62d7e95f8e6caff5976d62619bcc4fee1f00101cfdf540ac8b7e745ba357c",
+    "harmonies": "6cfdba4647947924b3c973b79a8de0cb05dee8b19ada4169311870d7fac31ced",
+    "directions": "8bdb0a1c23292bf4c9153f23d540058c04ef92bc41f77d67e469608b76c9696b",
+    "full_noncasting_tree": "852a7222fdb31cd21eb2f1056e529f8b944734599eeba821438fa55569be78b4"
+  },
+  "authorized_change_boundary": {
+    "break_attributes_only": true,
+    "removed_prior_break_attributes": {
+      "new-page": 180,
+      "new-system": 30,
+      "blank-page": 0,
+      "page-number": 0
+    },
+    "removed_empty_break_print_nodes": 210,
+    "replaced_break_support_entries": 2,
+    "unlogged_textual_differences": 0,
+    "runtime_assets_changed": false
+  },
+  "casting": {
+    "music_pages": 39,
+    "booklet_target_pages": 40,
+    "colophon_page": 40,
+    "systems": 42,
+    "paired_pages": [
+      1,
+      2,
+      31
+    ],
+    "single_system_pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "page_1_has_exactly_two_systems": true,
+    "system_measure_lengths": [
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      3,
+      6,
+      5,
+      3,
+      3,
+      3,
+      4,
+      3,
+      4,
+      5,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      9,
+      4,
+      4,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      4,
+      3,
+      3,
+      5,
+      5,
+      5,
+      6,
+      6
+    ],
+    "minimum_system_measures": 2,
+    "maximum_system_measures": 9,
+    "only_over_seven_system": "84-92 (m.84-88 tacet)",
+    "pages": [
+      [
+        "1-3",
+        "4-6"
+      ],
+      [
+        "7-8",
+        "9-10"
+      ],
+      [
+        "11-12"
+      ],
+      [
+        "13-14"
+      ],
+      [
+        "15-16"
+      ],
+      [
+        "17-20"
+      ],
+      [
+        "21-22"
+      ],
+      [
+        "23-25"
+      ],
+      [
+        "26-31"
+      ],
+      [
+        "32-36"
+      ],
+      [
+        "37-39"
+      ],
+      [
+        "40-42"
+      ],
+      [
+        "43-45"
+      ],
+      [
+        "46-49"
+      ],
+      [
+        "50-52"
+      ],
+      [
+        "53-56"
+      ],
+      [
+        "57-61"
+      ],
+      [
+        "62-66"
+      ],
+      [
+        "67-70"
+      ],
+      [
+        "71-73"
+      ],
+      [
+        "74-76"
+      ],
+      [
+        "77-80"
+      ],
+      [
+        "81-83"
+      ],
+      [
+        "84-92"
+      ],
+      [
+        "93-96"
+      ],
+      [
+        "97-100"
+      ],
+      [
+        "101-103"
+      ],
+      [
+        "104-105"
+      ],
+      [
+        "106-107"
+      ],
+      [
+        "108-109"
+      ],
+      [
+        "110-112",
+        "113-114"
+      ],
+      [
+        "115-118"
+      ],
+      [
+        "119-121"
+      ],
+      [
+        "122-124"
+      ],
+      [
+        "125-129"
+      ],
+      [
+        "130-134"
+      ],
+      [
+        "135-139"
+      ],
+      [
+        "140-145"
+      ],
+      [
+        "146-151"
+      ]
+    ],
+    "page_break_starts": [
+      7,
+      11,
+      13,
+      15,
+      17,
+      21,
+      23,
+      26,
+      32,
+      37,
+      40,
+      43,
+      46,
+      50,
+      53,
+      57,
+      62,
+      67,
+      71,
+      74,
+      77,
+      81,
+      84,
+      93,
+      97,
+      101,
+      104,
+      106,
+      108,
+      110,
+      115,
+      119,
+      122,
+      125,
+      130,
+      135,
+      140,
+      146
+    ],
+    "system_break_starts": [
+      4,
+      9,
+      113
+    ],
+    "page_break_instances": 228,
+    "system_break_instances": 18,
+    "identical_across_parts": true
+  }
+}

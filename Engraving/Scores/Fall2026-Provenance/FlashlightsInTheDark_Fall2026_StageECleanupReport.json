@@ -1,0 +1,468 @@
+{
+  "stage": "E",
+  "source": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_DoricoNormalized.musicxml",
+  "output": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_StageEClean.musicxml",
+  "source_sha256": "134c5b87ffac32dec7baf710332341b43469ff6d1c7e5fcc875ee623d0d5aaf1",
+  "output_sha256": "a21c0bdce98afe6b365b641e3e5c36d45d66bbf7c222be4d325441ae2e7f06f7",
+  "provenance": {
+    "normalized_source_sha256": "134c5b87ffac32dec7baf710332341b43469ff6d1c7e5fcc875ee623d0d5aaf1",
+    "normalization_report_sha256": "71dfd951f401f6ba3ac80cee7eac52862228d405ee5a42ef70fab5697b4232a3",
+    "fall_replacements": 388,
+    "reports_chain": true
+  },
+  "ensemble_direction_cleanup": {
+    "exact_wording_preserved": "rearticulate freely in aleatoric style",
+    "retained_locations": [
+      {
+        "part": "P1",
+        "part_name": "Soprano S",
+        "measure": 115
+      },
+      {
+        "part": "P1",
+        "part_name": "Soprano S",
+        "measure": 130
+      }
+    ],
+    "removed_duplicate_count": 3,
+    "removed_duplicates": [
+      {
+        "text": "rearticulate freely in aleatoric style",
+        "part": "P2",
+        "part_name": "Alto S",
+        "measure": 115,
+        "direction_index_before_removal": 2,
+        "placement": "above",
+        "offset": "-16",
+        "semantic_signature": "b165ff0500b4d7ead59a613f6ce4c15ee0c415c1b81768fc36a750419c3cfa24",
+        "retained_part": "P1",
+        "retained_part_name": "Soprano S",
+        "retained_direction_index": 3,
+        "reason": "Exact duplicate of the ensemble-wide instruction; retained once above the top staff."
+      },
+      {
+        "text": "rearticulate freely in aleatoric style",
+        "part": "P2",
+        "part_name": "Alto S",
+        "measure": 130,
+        "direction_index_before_removal": 1,
+        "placement": "above",
+        "offset": null,
+        "semantic_signature": "a1f7a01dfa5bf4f45cce98ed2bae93a39886ffc9fde24e49e1a448b253f66144",
+        "retained_part": "P1",
+        "retained_part_name": "Soprano S",
+        "retained_direction_index": 1,
+        "reason": "Exact duplicate of the ensemble-wide instruction; retained once above the top staff."
+      },
+      {
+        "text": "rearticulate freely in aleatoric style",
+        "part": "P3",
+        "part_name": "Baritone S",
+        "measure": 130,
+        "direction_index_before_removal": 1,
+        "placement": "above",
+        "offset": null,
+        "semantic_signature": "a1f7a01dfa5bf4f45cce98ed2bae93a39886ffc9fde24e49e1a448b253f66144",
+        "retained_part": "P1",
+        "retained_part_name": "Soprano S",
+        "retained_direction_index": 1,
+        "reason": "Exact duplicate of the ensemble-wide instruction; retained once above the top staff."
+      }
+    ],
+    "other_exact_cross_part_clusters": [
+      {
+        "measure": 6,
+        "texts": [
+          "("
+        ],
+        "display_text": "(",
+        "occurrences": [
+          {
+            "part": "P2",
+            "part_name": "Alto S",
+            "direction_index": 1
+          },
+          {
+            "part": "P3",
+            "part_name": "Baritone S",
+            "direction_index": 1
+          }
+        ],
+        "action": "preserved",
+        "reason": "Preserved because the fragment is not unambiguously an ensemble-wide semantic direction."
+      },
+      {
+        "measure": 6,
+        "texts": [
+          ")"
+        ],
+        "display_text": ")",
+        "occurrences": [
+          {
+            "part": "P2",
+            "part_name": "Alto S",
+            "direction_index": 2
+          },
+          {
+            "part": "P3",
+            "part_name": "Baritone S",
+            "direction_index": 2
+          }
+        ],
+        "action": "preserved",
+        "reason": "Preserved because the fragment is not unambiguously an ensemble-wide semantic direction."
+      },
+      {
+        "measure": 7,
+        "texts": [
+          "listen for primer tone"
+        ],
+        "display_text": "listen for primer tone",
+        "occurrences": [
+          {
+            "part": "P4",
+            "part_name": "Soprano L1/L2",
+            "direction_index": 1
+          },
+          {
+            "part": "P5",
+            "part_name": "Alto L1/L2",
+            "direction_index": 1
+          },
+          {
+            "part": "P6",
+            "part_name": "Tenor/Bass L",
+            "direction_index": 1
+          }
+        ],
+        "action": "preserved",
+        "reason": "Preserved on each Light staff as a performer-specific entrance cue."
+      },
+      {
+        "measure": 46,
+        "texts": [
+          "("
+        ],
+        "display_text": "(",
+        "occurrences": [
+          {
+            "part": "P3",
+            "part_name": "Baritone S",
+            "direction_index": 1
+          },
+          {
+            "part": "P6",
+            "part_name": "Tenor/Bass L",
+            "direction_index": 1
+          }
+        ],
+        "action": "preserved",
+        "reason": "Preserved because the fragment is not unambiguously an ensemble-wide semantic direction."
+      },
+      {
+        "measure": 48,
+        "texts": [
+          ")"
+        ],
+        "display_text": ")",
+        "occurrences": [
+          {
+            "part": "P3",
+            "part_name": "Baritone S",
+            "direction_index": 1
+          },
+          {
+            "part": "P6",
+            "part_name": "Tenor/Bass L",
+            "direction_index": 1
+          }
+        ],
+        "action": "preserved",
+        "reason": "Preserved because the fragment is not unambiguously an ensemble-wide semantic direction."
+      },
+      {
+        "measure": 112,
+        "texts": [
+          "subito "
+        ],
+        "display_text": "subito ",
+        "occurrences": [
+          {
+            "part": "P1",
+            "part_name": "Soprano S",
+            "direction_index": 1
+          },
+          {
+            "part": "P2",
+            "part_name": "Alto S",
+            "direction_index": 1
+          },
+          {
+            "part": "P3",
+            "part_name": "Baritone S",
+            "direction_index": 1
+          },
+          {
+            "part": "P4",
+            "part_name": "Soprano L1/L2",
+            "direction_index": 1
+          },
+          {
+            "part": "P5",
+            "part_name": "Alto L1/L2",
+            "direction_index": 1
+          },
+          {
+            "part": "P6",
+            "part_name": "Tenor/Bass L",
+            "direction_index": 1
+          }
+        ],
+        "action": "preserved",
+        "reason": "Preserved on every staff: this is a performer-level dynamic-state instruction, not safely reducible to a system object."
+      }
+    ]
+  },
+  "page1_credit_cleanup": {
+    "removed_redundant_count": 3,
+    "removed_redundant": [
+      {
+        "page": 1,
+        "credit_index_before_removal": 1,
+        "text": "Flashlights in the Dark",
+        "role": "title",
+        "metadata_paths_retained": [
+          "work/work-title",
+          "movement-title"
+        ],
+        "semantic_signature": "4bdf70d62e660e1e53a36642a0237696ede716c467ab413dfb4385eba6f565b4",
+        "reason": "Removed redundant page-one credit furniture; Dorico can populate this field from the retained semantic metadata."
+      },
+      {
+        "page": 1,
+        "credit_index_before_removal": 2,
+        "text": "Jon D. Nelson",
+        "role": "composer",
+        "metadata_paths_retained": [
+          "identification/creator[@type='composer']"
+        ],
+        "semantic_signature": "4ba819871c6fb636502500a20a338f04e9ba0fa0f312c665b71772b6b049dd2c",
+        "reason": "Removed redundant page-one credit furniture; Dorico can populate this field from the retained semantic metadata."
+      },
+      {
+        "page": 1,
+        "credit_index_before_removal": 3,
+        "text": "© 2025",
+        "role": "copyright",
+        "metadata_paths_retained": [
+          "identification/rights"
+        ],
+        "semantic_signature": "a0e51bb9e82c0d69fd97fa8510b552effb7ed04b81241ee97ea1c4d7d6996072",
+        "reason": "Removed redundant page-one credit furniture; Dorico can populate this field from the retained semantic metadata."
+      }
+    ],
+    "retained_unique_count": 2,
+    "retained_unique": [
+      {
+        "page": 1,
+        "text": "Set in 2076",
+        "role": "subtitle",
+        "metadata_path": "credit[@page='1']/credit-words",
+        "semantic_signature": "5125f064fcc9f8777719ecfa7c90242f6bcf886a2b1e2702e944ee34d405e632",
+        "reason": "Retained as the approved MusicXML path for unique subtitle or commission metadata not duplicated by standard title fields."
+      },
+      {
+        "page": 1,
+        "text": "Commissioned by the Philharmonic Chorus of Madison",
+        "role": "commission",
+        "metadata_path": "credit[@page='1']/credit-words",
+        "semantic_signature": "011a5962f54128273718a9dfc74621bab44f85bd49462d6c3dd10c5197487201",
+        "reason": "Retained as the approved MusicXML path for unique subtitle or commission metadata not duplicated by standard title fields."
+      }
+    ]
+  },
+  "harmony_spacing_audit": {
+    "measure_range": [
+      93,
+      97
+    ],
+    "harmony_count": 9,
+    "harmonies": [
+      {
+        "part": "P1",
+        "measure": 93,
+        "harmony_index": 1,
+        "identity": "{\"bass_alter\": null, \"bass_step\": null, \"degrees\": [], \"kind\": \"minor-seventh\", \"kind_text\": \"7\", \"root_alter\": null, \"root_step\": \"F\"}",
+        "offset": null,
+        "semantic_signature": "5727d105edf61986ddf92932569274dfb2451d8fe98811e17e684c2d92bf202c"
+      },
+      {
+        "part": "P1",
+        "measure": 93,
+        "harmony_index": 2,
+        "identity": "{\"bass_alter\": null, \"bass_step\": null, \"degrees\": [], \"kind\": \"augmented\", \"kind_text\": null, \"root_alter\": null, \"root_step\": \"E\"}",
+        "offset": null,
+        "semantic_signature": "712f5f2dd8759ac52817d34430644f517be05ec7abd44fb3a90231c6e4054f0a"
+      },
+      {
+        "part": "P1",
+        "measure": 94,
+        "harmony_index": 1,
+        "identity": "{\"bass_alter\": null, \"bass_step\": \"E\", \"degrees\": [], \"kind\": \"major\", \"kind_text\": \"\", \"root_alter\": null, \"root_step\": \"C\"}",
+        "offset": null,
+        "semantic_signature": "72152854bf5b8de7b8e0620e06dd0c40e045de20d7f1c2894bd61a43794b9c61"
+      },
+      {
+        "part": "P1",
+        "measure": 95,
+        "harmony_index": 1,
+        "identity": "{\"bass_alter\": null, \"bass_step\": \"E\", \"degrees\": [{\"alter\": \"1\", \"type\": \"add\", \"value\": \"9\"}], \"kind\": \"major\", \"kind_text\": null, \"root_alter\": null, \"root_step\": \"C\"}",
+        "offset": null,
+        "semantic_signature": "9981a80fe448fe387495b5ad34bce45c3845a87fa4ffadaec8a4dd354ace8465"
+      },
+      {
+        "part": "P1",
+        "measure": 95,
+        "harmony_index": 2,
+        "identity": "{\"bass_alter\": \"-1\", \"bass_step\": \"E\", \"degrees\": [], \"kind\": \"minor\", \"kind_text\": null, \"root_alter\": null, \"root_step\": \"C\"}",
+        "offset": "-16",
+        "semantic_signature": "315aeb801a118b1b1082e587a1712634a92086e901b9665576b8a53853edb528"
+      },
+      {
+        "part": "P1",
+        "measure": 95,
+        "harmony_index": 3,
+        "identity": "{\"bass_alter\": null, \"bass_step\": null, \"degrees\": [], \"kind\": \"major-seventh\", \"kind_text\": \"maj7\", \"root_alter\": \"-1\", \"root_step\": \"A\"}",
+        "offset": "-8",
+        "semantic_signature": "e45f3f3adb5dcc7439b81e26bb5a590642a735919b7e18e37819ffd6c0408f4f"
+      },
+      {
+        "part": "P1",
+        "measure": 96,
+        "harmony_index": 1,
+        "identity": "{\"bass_alter\": null, \"bass_step\": null, \"degrees\": [{\"alter\": \"1\", \"type\": \"add\", \"value\": \"11\"}], \"kind\": \"major-seventh\", \"kind_text\": null, \"root_alter\": \"-1\", \"root_step\": \"A\"}",
+        "offset": null,
+        "semantic_signature": "1b2537f472ea4b6708d42e65b03c6812479a660d95658b71628d8f8dce60cbbe"
+      },
+      {
+        "part": "P1",
+        "measure": 96,
+        "harmony_index": 2,
+        "identity": "{\"bass_alter\": \"-1\", \"bass_step\": \"A\", \"degrees\": [{\"alter\": \"1\", \"type\": \"add\", \"value\": \"7\"}], \"kind\": \"augmented\", \"kind_text\": null, \"root_alter\": \"-1\", \"root_step\": \"E\"}",
+        "offset": "-8",
+        "semantic_signature": "4505c8f4624be6225d95b9cc61bf6dab047a4c8f4c4a46ab0104826371f491b8"
+      },
+      {
+        "part": "P1",
+        "measure": 97,
+        "harmony_index": 1,
+        "identity": "{\"bass_alter\": null, \"bass_step\": \"E\", \"degrees\": [], \"kind\": \"major-ninth\", \"kind_text\": \"maj9\", \"root_alter\": null, \"root_step\": \"C\"}",
+        "offset": "-24",
+        "semantic_signature": "03104451c48002aef9d33f24e263dcad0276074cb7b6b568d3813d8ffa0889d2"
+      }
+    ],
+    "unsafe_local_position_attributes": [],
+    "musicxml_changes": [],
+    "action": "dorico_only",
+    "reason": "MusicXML provides no safe minimum-gap or collision-avoidance control for this chord-symbol run. Existing harmony offsets are rhythmic anchors; changing them would change timing. Retain every harmony identity and offset, then adjust chord-symbol/note spacing in Dorico."
+  },
+  "ambiguity_flags": [
+    {
+      "code": "REPEATED_PASSAGE_LOCATION_RESOLVED",
+      "requested_description": "m126-ish repeated passage",
+      "musicxml_measure": 130,
+      "action": "Consolidated at the actual encoded location, measure 130."
+    },
+    {
+      "code": "HARMONY_SPACING_DORICO_ONLY",
+      "measures": [
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "action": "MusicXML provides no safe minimum-gap or collision-avoidance control for this chord-symbol run. Existing harmony offsets are rhythmic anchors; changing them would change timing. Retain every harmony identity and offset, then adjust chord-symbol/note spacing in Dorico."
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "part_ids": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "measure_counts": {
+      "P1": 151,
+      "P2": 151,
+      "P3": 151,
+      "P4": 151,
+      "P5": 151,
+      "P6": 151
+    },
+    "note_count": 2787,
+    "lyric_anchor_count": 1376,
+    "fall_replacement_count": 388,
+    "structure_fingerprint": "82a6cfbb1b1856cf5af9a733c04df58ee2eeaacd2e611213de1b45ec6df3e111",
+    "score_shape_match": true,
+    "note_count_exact": true,
+    "lyric_anchor_count_exact": true,
+    "canonical_structure_matches": true,
+    "notes_exact": true,
+    "lyrics_text_attributes_and_placement_exact": true,
+    "dynamics_exact": true,
+    "harmonies_exact": true,
+    "direction_changes_exactly_logged": true,
+    "semantic_metadata_exact": true,
+    "five_line_overrides_exact": true,
+    "casting_breaks_exact": true,
+    "fall_replacements_preserved": true,
+    "note_payload_hash_before": "5729d99f1358c55922b8b21449735bf2bf44665045c2d7ad96f30c4b5279add9",
+    "note_payload_hash_after": "5729d99f1358c55922b8b21449735bf2bf44665045c2d7ad96f30c4b5279add9",
+    "lyric_payload_hash_before": "38c00001101ed66355f7ad44ee0d89f7603f7cbdab251a5258889b3145cb3c43",
+    "lyric_payload_hash_after": "38c00001101ed66355f7ad44ee0d89f7603f7cbdab251a5258889b3145cb3c43",
+    "dynamics_payload_hash_before": "54d808299456beeacc8faf98710a19b92b1eac6ae5175a27ed595a3bde98fa93",
+    "dynamics_payload_hash_after": "54d808299456beeacc8faf98710a19b92b1eac6ae5175a27ed595a3bde98fa93",
+    "harmony_payload_hash_before": "d417708bede97e39e09ac8f781159e8305f7b558bfb0e4f071bfa9c344ddc27d",
+    "harmony_payload_hash_after": "d417708bede97e39e09ac8f781159e8305f7b558bfb0e4f071bfa9c344ddc27d",
+    "casting": {
+      "identical_across_parts": true,
+      "page_break_starts": [
+        11,
+        19,
+        31,
+        38,
+        48,
+        57,
+        71,
+        80,
+        89,
+        98,
+        104,
+        115,
+        130,
+        140
+      ],
+      "system_break_starts": [
+        6,
+        15,
+        26,
+        35,
+        42,
+        54,
+        65,
+        76,
+        93,
+        101,
+        108,
+        122,
+        133,
+        148
+      ],
+      "break_instances": 168
+    }
+  }
+}

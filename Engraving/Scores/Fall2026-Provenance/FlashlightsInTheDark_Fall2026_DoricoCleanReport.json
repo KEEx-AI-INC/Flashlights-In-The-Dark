@@ -1,0 +1,65 @@
+{
+  "source": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_ValidatedImport.musicxml",
+  "output": "Engraving/Scores/FlashlightsInTheDark_Fall2026_DoricoClean.musicxml",
+  "source_sha256": "58562b931a28eb0385ba584b342bc435131104929bbe03aa83cd861cc79395ad",
+  "output_sha256": "d9851e260dcb5a798fe9176e940beab16274c5e84459318fcfb486da169e9897",
+  "repeated_page_credits_removed": 34,
+  "players_renamed": 6,
+  "groups_normalized": 2,
+  "print_elements_removed": 96,
+  "position_attributes_removed": 6943,
+  "font_attributes_removed": 80,
+  "measure_widths_removed": 906,
+  "staff_line_changes": 9,
+  "semantic_direction_corrections": [
+    {
+      "measure": "2",
+      "part": "P1",
+      "before": "nighttime sounds mixed with\ncacouphonous shimmery jingling",
+      "after": "nighttime sounds mixed with\ncacophonous shimmery jingling",
+      "reason": "Corrected a demonstrable orthographic error in a prose direction."
+    },
+    {
+      "measure": "81",
+      "part": "P1",
+      "before": "musique concréte",
+      "after": "musique concrète",
+      "reason": "Corrected a demonstrable orthographic error in a prose direction."
+    },
+    {
+      "measure": "115",
+      "part": "P1",
+      "before": "'rea' + 'rticulate freely in aleatoric style'",
+      "after": "rearticulate freely in aleatoric style",
+      "reason": "Rejoined a word split across adjacent MusicXML words objects."
+    },
+    {
+      "measure": "130",
+      "part": "P1",
+      "before": "'rea' + 'rticulate freely in aleatoric style'",
+      "after": "rearticulate freely in aleatoric style",
+      "reason": "Rejoined a word split across adjacent MusicXML words objects."
+    },
+    {
+      "measure": "115",
+      "part": "P2",
+      "before": "'rea' + 'rticulate freely in aleatoric style'",
+      "after": "rearticulate freely in aleatoric style",
+      "reason": "Rejoined a word split across adjacent MusicXML words objects."
+    },
+    {
+      "measure": "130",
+      "part": "P2",
+      "before": "'rea' + 'rticulate freely in aleatoric style'",
+      "after": "rearticulate freely in aleatoric style",
+      "reason": "Rejoined a word split across adjacent MusicXML words objects."
+    },
+    {
+      "measure": "130",
+      "part": "P3",
+      "before": "'rea' + 'rticulate freely in aleatoric style'",
+      "after": "rearticulate freely in aleatoric style",
+      "reason": "Rejoined a word split across adjacent MusicXML words objects."
+    }
+  ]
+}

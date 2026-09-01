@@ -1,0 +1,303 @@
+{
+  "profile": "Fall 2026 readability-first 24-page performer score",
+  "source": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_StageEClean.musicxml",
+  "output": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_Dorico24PageCasted.musicxml",
+  "source_sha256": "a21c0bdce98afe6b365b641e3e5c36d45d66bbf7c222be4d325441ae2e7f06f7",
+  "output_sha256": "6510479bf9cc7be87e21a3585593c13786aa3b04114162290344901ff237140d",
+  "source_provenance": {
+    "verified": true,
+    "stage": "E",
+    "report": "Engraving/Scores/Fall2026-Provenance/FlashlightsInTheDark_Fall2026_StageECleanupReport.json",
+    "source_sha256_matches_report": true,
+    "fall_replacements": 388,
+    "lyric_routing_normalized": true,
+    "ensemble_direction_duplicates_removed": 3,
+    "redundant_page1_credits_removed": 3
+  },
+  "score_validation": {
+    "part_ids": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "measure_counts": {
+      "P1": 151,
+      "P2": 151,
+      "P3": 151,
+      "P4": 151,
+      "P5": 151,
+      "P6": 151
+    },
+    "lyric_anchors": 1376,
+    "structure_fingerprint": "82a6cfbb1b1856cf5af9a733c04df58ee2eeaacd2e611213de1b45ec6df3e111",
+    "note_count": 2787
+  },
+  "structure_matches": true,
+  "semantic_preservation": {
+    "lyrics_and_routing_match": true,
+    "lyric_semantic_hash": "81006922114e35ea63746808eb358a1bb14749841a17997f58ba4acf972fd97e",
+    "five_line_staff_overrides_match": true,
+    "five_line_staff_override_hash": "ca064d6819cdf8d45a07fd15809546c191ae124262d2418608cd8f3373bbccd8",
+    "all_encoded_staves_visible": true
+  },
+  "removed_break_attributes": {
+    "new-page": 84,
+    "new-system": 84,
+    "blank-page": 0,
+    "page-number": 0
+  },
+  "removed_empty_print_nodes": 168,
+  "replaced_break_support_entries": 2,
+  "casting": {
+    "music_pages": 23,
+    "booklet_target_pages": 24,
+    "colophon_page": 24,
+    "systems": 34,
+    "two_system_pages": [
+      1,
+      3,
+      5,
+      10,
+      15,
+      16,
+      17,
+      19,
+      21,
+      22,
+      23
+    ],
+    "one_system_pages": [
+      2,
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      18,
+      20
+    ],
+    "page_1_has_exactly_two_systems": true,
+    "pages": [
+      [
+        "1-6",
+        "7-10"
+      ],
+      [
+        "11-12"
+      ],
+      [
+        "13-14",
+        "15-16"
+      ],
+      [
+        "17-20"
+      ],
+      [
+        "21-25",
+        "26-31"
+      ],
+      [
+        "32-36"
+      ],
+      [
+        "37-39"
+      ],
+      [
+        "40-42"
+      ],
+      [
+        "43-45"
+      ],
+      [
+        "46-52",
+        "53-56"
+      ],
+      [
+        "57-61"
+      ],
+      [
+        "62-66"
+      ],
+      [
+        "67-70"
+      ],
+      [
+        "71-76"
+      ],
+      [
+        "77-80",
+        "81-88"
+      ],
+      [
+        "89-92",
+        "93-97"
+      ],
+      [
+        "98-101",
+        "102-103"
+      ],
+      [
+        "104-107"
+      ],
+      [
+        "108-112",
+        "113-114"
+      ],
+      [
+        "115-118"
+      ],
+      [
+        "119-124",
+        "125-129"
+      ],
+      [
+        "130-134",
+        "135-139"
+      ],
+      [
+        "140-145",
+        "146-151"
+      ]
+    ],
+    "page_break_starts": [
+      11,
+      13,
+      17,
+      21,
+      32,
+      37,
+      40,
+      43,
+      46,
+      57,
+      62,
+      67,
+      71,
+      77,
+      89,
+      98,
+      104,
+      108,
+      115,
+      119,
+      130,
+      140
+    ],
+    "system_break_starts": [
+      7,
+      15,
+      26,
+      53,
+      81,
+      93,
+      102,
+      113,
+      125,
+      135,
+      146
+    ],
+    "page_break_instances": 132,
+    "system_break_instances": 66,
+    "identical_across_parts": true
+  },
+  "odd_page_turns": [
+    {
+      "page": 1,
+      "after_measure": 10,
+      "rating": "marginal",
+      "reason": "The 1-6 / 7-10 split materially balances page 1, but one Light voice ties across the barline and several voices have no shared rest before m.11."
+    },
+    {
+      "page": 3,
+      "after_measure": 16,
+      "rating": "unsafe-unavoidable",
+      "reason": "The text continues 'This | tender world' and one Light voice is tied across the barline.  Keeping the dense m.10-16 systems apart prevents the Stage D m.12/13 and m.16/17 collisions."
+    },
+    {
+      "page": 5,
+      "after_measure": 31,
+      "rating": "strong",
+      "reason": "All parts have at least 4.5 quarter-note beats of turning time at the clock/Andante reset before m.32."
+    },
+    {
+      "page": 7,
+      "after_measure": 39,
+      "rating": "unsafe-unavoidable",
+      "reason": "Tenor/Bass L is tied into m.40 and the Shining/bloom texture continues.  Adjacent two-system pairings in m.32-45 caused literal staff collisions in Stage D, so this page remains single-system."
+    },
+    {
+      "page": 9,
+      "after_measure": 45,
+      "rating": "workable",
+      "reason": "No cross-bar ties; most parts have 2.5 or more quarter-note beats of clearance at the breathing-arc boundary."
+    },
+    {
+      "page": 11,
+      "after_measure": 61,
+      "rating": "strong",
+      "reason": "Every active part has at least two quarter-note beats of rest and there are no cross-bar ties."
+    },
+    {
+      "page": 13,
+      "after_measure": 70,
+      "rating": "workable",
+      "reason": "One shared quarter-note beat separates the colon at m.70 from the metered-forte return at m.71; there are no cross-bar ties."
+    },
+    {
+      "page": 15,
+      "after_measure": 88,
+      "rating": "ideal",
+      "reason": "The musique-concrete block ends with at least six quarter-note beats of silence in every part before the m.89 lantern entrance."
+    },
+    {
+      "page": 17,
+      "after_measure": 103,
+      "rating": "strong",
+      "reason": "All six parts have a one-quarter-note shared breath, with no ties, before the unified m.104 entrance."
+    },
+    {
+      "page": 19,
+      "after_measure": 114,
+      "rating": "workable",
+      "reason": "There are no cross-bar ties and four parts have two beats of space; the page turn also places the aleatoric instruction at the top of page 20."
+    },
+    {
+      "page": 21,
+      "after_measure": 129,
+      "rating": "workable-fast",
+      "reason": "The phrase closes on 'new home.' and no notes tie across; Shadow voices have only a half-beat before the second aleatoric field."
+    },
+    {
+      "page": 23,
+      "after_measure": 151,
+      "rating": "end-of-music",
+      "reason": "No live musical turn is required; page 24 is the colophon."
+    }
+  ],
+  "stage_d_collision_response": [
+    "m.12/13 separated by a page break",
+    "m.16/17 separated by a page break",
+    "m.36/37 separated by a page break",
+    "m.42/43 separated by a page break",
+    "m.61/62 separated by a page break",
+    "m.69/70 absorbed into one m.67-70 system",
+    "m.97/98 separated by a page break",
+    "m.106/107 absorbed into one m.104-107 system",
+    "m.118/119 separated by a page break",
+    "m.143/144 replaced by balanced m.140-145 and m.146-151 systems"
+  ],
+  "colophon": {
+    "musicxml_credit_added": false,
+    "native_dorico_page_required": true,
+    "page": 24,
+    "must_be_nonblank": true,
+    "instruction": "After import, create a nonblank page 24 natively in Dorico with a page-template override and the approved edition/provenance colophon.  Do not append an empty page or rely on MusicXML credit-words to allocate it."
+  }
+}

@@ -1,0 +1,1915 @@
+{
+  "source": "Engraving/Scores/FlashlightsInTheDark_Fall2026_DoricoClean.musicxml",
+  "output": "Engraving/Scores/FlashlightsInTheDark_Fall2026_DoricoTextCorrected.musicxml",
+  "source_sha256": "d9851e260dcb5a798fe9176e940beab16274c5e84459318fcfb486da169e9897",
+  "output_sha256": "e7bc71c02f61fa09380c34da8c2668451b5ba5dd843e346f66a3fb01c7ccbff4",
+  "correction_count": 60,
+  "corrections": [
+    {
+      "part": "P1",
+      "measure": "18-19",
+      "category": "lyric_word_and_melisma",
+      "before": [
+        {
+          "part": "P1",
+          "measure": "18",
+          "note_index": 1,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": "single",
+            "text": "lo",
+            "extend": "start"
+          }
+        },
+        {
+          "part": "P1",
+          "measure": "18",
+          "note_index": 4,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": null,
+            "text": null,
+            "extend": "stop"
+          }
+        },
+        {
+          "part": "P1",
+          "measure": "19",
+          "note_index": 1,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": "single",
+            "text": "ove",
+            "extend": null
+          }
+        }
+      ],
+      "after": [
+        {
+          "part": "P1",
+          "measure": "18",
+          "note_index": 1,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": "single",
+            "text": "love",
+            "extend": "start"
+          }
+        },
+        {
+          "part": "P1",
+          "measure": "18",
+          "note_index": 4,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": null,
+            "text": null,
+            "extend": "continue"
+          }
+        },
+        {
+          "part": "P1",
+          "measure": "19",
+          "note_index": 1,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": null,
+            "text": null,
+            "extend": "stop"
+          }
+        }
+      ],
+      "reason": "Re-encoded the one-syllable word 'love' as one text anchor with a continuous extender, without removing lyric anchors."
+    },
+    {
+      "part": "P2",
+      "measure": "18-19",
+      "category": "lyric_word_and_melisma",
+      "before": [
+        {
+          "part": "P2",
+          "measure": "18",
+          "note_index": 1,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": "single",
+            "text": "lo",
+            "extend": "start"
+          }
+        },
+        {
+          "part": "P2",
+          "measure": "18",
+          "note_index": 3,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": null,
+            "text": null,
+            "extend": "stop"
+          }
+        },
+        {
+          "part": "P2",
+          "measure": "19",
+          "note_index": 1,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": "single",
+            "text": "ove",
+            "extend": null
+          }
+        }
+      ],
+      "after": [
+        {
+          "part": "P2",
+          "measure": "18",
+          "note_index": 1,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": "single",
+            "text": "love",
+            "extend": "start"
+          }
+        },
+        {
+          "part": "P2",
+          "measure": "18",
+          "note_index": 3,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": null,
+            "text": null,
+            "extend": "continue"
+          }
+        },
+        {
+          "part": "P2",
+          "measure": "19",
+          "note_index": 1,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": null,
+            "text": null,
+            "extend": "stop"
+          }
+        }
+      ],
+      "reason": "Re-encoded the one-syllable word 'love' as one text anchor with a continuous extender, without removing lyric anchors."
+    },
+    {
+      "part": "P3",
+      "measure": "18-19",
+      "category": "lyric_word_and_melisma",
+      "before": [
+        {
+          "part": "P3",
+          "measure": "18",
+          "note_index": 1,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": "single",
+            "text": "lo",
+            "extend": "start"
+          }
+        },
+        {
+          "part": "P3",
+          "measure": "18",
+          "note_index": 3,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": null,
+            "text": null,
+            "extend": "stop"
+          }
+        },
+        {
+          "part": "P3",
+          "measure": "19",
+          "note_index": 1,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": "single",
+            "text": "ove",
+            "extend": null
+          }
+        }
+      ],
+      "after": [
+        {
+          "part": "P3",
+          "measure": "18",
+          "note_index": 1,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": "single",
+            "text": "love",
+            "extend": "start"
+          }
+        },
+        {
+          "part": "P3",
+          "measure": "18",
+          "note_index": 3,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": null,
+            "text": null,
+            "extend": "continue"
+          }
+        },
+        {
+          "part": "P3",
+          "measure": "19",
+          "note_index": 1,
+          "lyric_index": 1,
+          "voice": "1",
+          "lyric_number": "1",
+          "lyric": {
+            "number": "1",
+            "placement": null,
+            "syllabic": null,
+            "text": null,
+            "extend": "stop"
+          }
+        }
+      ],
+      "reason": "Re-encoded the one-syllable word 'love' as one text anchor with a continuous extender, without removing lyric anchors."
+    },
+    {
+      "part": "P3",
+      "measure": "51",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_spelling",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "middle",
+        "text": "ceed",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "middle",
+        "text": "ced",
+        "extend": null
+      },
+      "reason": "Corrected 'preceeding' to 'preceding' while retaining its note anchor."
+    },
+    {
+      "part": "P4",
+      "measure": "50",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_spelling",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "middle",
+        "text": "ceed",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "middle",
+        "text": "ced",
+        "extend": null
+      },
+      "reason": "Corrected 'preceeding' to 'preceding' while retaining its note anchor."
+    },
+    {
+      "part": "P5",
+      "measure": "50",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_spelling",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "ceed",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "ced",
+        "extend": null
+      },
+      "reason": "Corrected 'preceeding' to 'preceding' while retaining its note anchor."
+    },
+    {
+      "part": "P6",
+      "measure": "50",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "1",
+      "category": "lyric_spelling",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "middle",
+        "text": "ceed",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "middle",
+        "text": "ced",
+        "extend": null
+      },
+      "reason": "Corrected 'preceeding' to 'preceding' while retaining its note anchor."
+    },
+    {
+      "part": "P4",
+      "measure": "99",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_spelling",
+      "before": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "begin",
+        "text": "wear",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "begin",
+        "text": "wea",
+        "extend": null
+      },
+      "reason": "Corrected the exported 'wear-ry' spelling to 'wea-ry'."
+    },
+    {
+      "part": "P4",
+      "measure": "99",
+      "note_index": 3,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "2",
+      "category": "lyric_spelling",
+      "before": {
+        "number": "2",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "wear",
+        "extend": null
+      },
+      "after": {
+        "number": "2",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "wea",
+        "extend": null
+      },
+      "reason": "Corrected the exported 'wear-ry' spelling to 'wea-ry'."
+    },
+    {
+      "part": "P5",
+      "measure": "99",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_spelling",
+      "before": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "begin",
+        "text": "wear",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "begin",
+        "text": "wea",
+        "extend": null
+      },
+      "reason": "Corrected the exported 'wear-ry' spelling to 'wea-ry'."
+    },
+    {
+      "part": "P6",
+      "measure": "99",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_spelling",
+      "before": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "begin",
+        "text": "wear",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "begin",
+        "text": "wea",
+        "extend": null
+      },
+      "reason": "Corrected the exported 'wear-ry' spelling to 'wea-ry'."
+    },
+    {
+      "part": "P6",
+      "measure": "103",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "single",
+        "text": "(yours",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "single",
+        "text": "(Yours",
+        "extend": "start"
+      },
+      "reason": "Matched the unambiguous captured Fall cue '(Yours too.)'."
+    },
+    {
+      "part": "P6",
+      "measure": "103",
+      "note_index": 4,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "single",
+        "text": "too)",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "single",
+        "text": "too.)",
+        "extend": "start"
+      },
+      "reason": "Matched the unambiguous captured Fall cue '(Yours too.)'."
+    },
+    {
+      "part": "P4",
+      "measure": "140",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P4",
+      "measure": "141",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P4",
+      "measure": "142",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P4",
+      "measure": "144",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P4",
+      "measure": "148",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": null
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P4",
+      "measure": "149",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P5",
+      "measure": "140",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P5",
+      "measure": "141",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P5",
+      "measure": "142",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P5",
+      "measure": "144",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P5",
+      "measure": "148",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": null
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P5",
+      "measure": "149",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P6",
+      "measure": "140",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P6",
+      "measure": "141",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P6",
+      "measure": "142",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P6",
+      "measure": "144",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P6",
+      "measure": "148",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": null
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P6",
+      "measure": "149",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "canonical_case_and_punctuation",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "hmm",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Hmm.",
+        "extend": "start"
+      },
+      "reason": "Matched the separately timed captured Fall cue 'Hmm.'."
+    },
+    {
+      "part": "P1",
+      "measure": "61",
+      "note_index": 4,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "shad",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "shad",
+        "extend": null
+      },
+      "reason": "Marked the first syllable of 'shadows' consistently."
+    },
+    {
+      "part": "P1",
+      "measure": "61",
+      "note_index": 5,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "ows",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "ows",
+        "extend": null
+      },
+      "reason": "Marked the final syllable of 'shadows' consistently."
+    },
+    {
+      "part": "P2",
+      "measure": "61",
+      "note_index": 4,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "shad",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "shad",
+        "extend": null
+      },
+      "reason": "Marked the first syllable of 'shadows' consistently."
+    },
+    {
+      "part": "P2",
+      "measure": "61",
+      "note_index": 5,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "ows",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "ows",
+        "extend": null
+      },
+      "reason": "Marked the final syllable of 'shadows' consistently."
+    },
+    {
+      "part": "P3",
+      "measure": "61",
+      "note_index": 4,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "shad",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "shad",
+        "extend": null
+      },
+      "reason": "Marked the first syllable of 'shadows' consistently."
+    },
+    {
+      "part": "P3",
+      "measure": "61",
+      "note_index": 5,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "ows",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "ows",
+        "extend": null
+      },
+      "reason": "Marked the final syllable of 'shadows' consistently."
+    },
+    {
+      "part": "P5",
+      "measure": "61",
+      "note_index": 4,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "shad",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "shad",
+        "extend": null
+      },
+      "reason": "Marked the first syllable of 'shadows' consistently."
+    },
+    {
+      "part": "P5",
+      "measure": "61",
+      "note_index": 5,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "ows",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "ows",
+        "extend": null
+      },
+      "reason": "Marked the final syllable of 'shadows' consistently."
+    },
+    {
+      "part": "P6",
+      "measure": "61",
+      "note_index": 5,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "shad",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "shad",
+        "extend": null
+      },
+      "reason": "Marked the first syllable of 'shadows' consistently."
+    },
+    {
+      "part": "P6",
+      "measure": "61",
+      "note_index": 6,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "ows",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "ows",
+        "extend": null
+      },
+      "reason": "Marked the final syllable of 'shadows' consistently."
+    },
+    {
+      "part": "P2",
+      "measure": "67",
+      "note_index": 3,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "flash",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "flash",
+        "extend": "start"
+      },
+      "reason": "Marked the first syllable of 'flashlights' consistently."
+    },
+    {
+      "part": "P2",
+      "measure": "67",
+      "note_index": 5,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "lights",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "lights",
+        "extend": "start"
+      },
+      "reason": "Marked the final syllable of 'flashlights' consistently."
+    },
+    {
+      "part": "P2",
+      "measure": "68",
+      "note_index": 6,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "dark",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "dark",
+        "extend": null
+      },
+      "reason": "Marked 'dark-ness' as a two-syllable word."
+    },
+    {
+      "part": "P2",
+      "measure": "69",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "ness",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "ness",
+        "extend": null
+      },
+      "reason": "Marked 'dark-ness' as a two-syllable word."
+    },
+    {
+      "part": "P5",
+      "measure": "38",
+      "note_index": 5,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "Shin",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "Shin",
+        "extend": "start"
+      },
+      "reason": "Marked voice 2 'Shin-ing' consistently."
+    },
+    {
+      "part": "P5",
+      "measure": "38",
+      "note_index": 7,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "1",
+      "category": "lyric_syllabification",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "ing",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "ing",
+        "extend": null
+      },
+      "reason": "Marked voice 2 'Shin-ing' consistently."
+    },
+    {
+      "part": "P4",
+      "measure": "54",
+      "note_index": 5,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "2",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "middle",
+        "text": "flur",
+        "extend": null
+      },
+      "after": {
+        "number": "2",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "flur",
+        "extend": null
+      },
+      "reason": "Moved the complete lower 'flur-ries' phrase into lyric line 2."
+    },
+    {
+      "part": "P4",
+      "measure": "54",
+      "note_index": 7,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "2",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "2",
+        "placement": null,
+        "syllabic": "single",
+        "text": "ries",
+        "extend": "start"
+      },
+      "after": {
+        "number": "2",
+        "placement": null,
+        "syllabic": "end",
+        "text": "ries",
+        "extend": "start"
+      },
+      "reason": "Closed the lower 'flur-ries' word in lyric line 2."
+    },
+    {
+      "part": "P4",
+      "measure": "100",
+      "note_index": 3,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "2",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "I'll",
+        "extend": null
+      },
+      "after": {
+        "number": "2",
+        "placement": null,
+        "syllabic": "end",
+        "text": "I'll",
+        "extend": null
+      },
+      "reason": "Kept the lower warmth phrase in stable lyric line 2."
+    },
+    {
+      "part": "P4",
+      "measure": "102",
+      "note_index": 9,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "2",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "yours",
+        "extend": "start"
+      },
+      "after": {
+        "number": "2",
+        "placement": null,
+        "syllabic": "single",
+        "text": "yours",
+        "extend": "start"
+      },
+      "reason": "Kept the lower warmth phrase in stable lyric line 2."
+    },
+    {
+      "part": "P4",
+      "measure": "100",
+      "note_index": 3,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "2",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "2",
+        "placement": null,
+        "syllabic": "end",
+        "text": "I'll",
+        "extend": null
+      },
+      "after": {
+        "number": "2",
+        "placement": null,
+        "syllabic": "single",
+        "text": "I'll",
+        "extend": null
+      },
+      "reason": "Repaired an impossible begin/middle/end state within its stable voice lane."
+    },
+    {
+      "part": "P4",
+      "measure": "101",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "ry",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "ry",
+        "extend": null
+      },
+      "reason": "Repaired an impossible begin/middle/end state within its stable voice lane."
+    },
+    {
+      "part": "P5",
+      "measure": "99",
+      "note_index": 3,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "1",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "wea",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "begin",
+        "text": "wea",
+        "extend": "start"
+      },
+      "reason": "Repaired an impossible begin/middle/end state within its stable voice lane."
+    },
+    {
+      "part": "P5",
+      "measure": "99",
+      "note_index": 4,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "1",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "ry",
+        "extend": "start"
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "ry",
+        "extend": "start"
+      },
+      "reason": "Repaired an impossible begin/middle/end state within its stable voice lane."
+    },
+    {
+      "part": "P5",
+      "measure": "100",
+      "note_index": 1,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "single",
+        "text": "ry",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "end",
+        "text": "ry",
+        "extend": null
+      },
+      "reason": "Repaired an impossible begin/middle/end state within its stable voice lane."
+    },
+    {
+      "part": "P5",
+      "measure": "100",
+      "note_index": 4,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "1",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "I'll",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "I'll",
+        "extend": null
+      },
+      "reason": "Repaired an impossible begin/middle/end state within its stable voice lane."
+    },
+    {
+      "part": "P5",
+      "measure": "101",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "single",
+        "text": "ry",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "end",
+        "text": "ry",
+        "extend": null
+      },
+      "reason": "Repaired an impossible begin/middle/end state within its stable voice lane."
+    },
+    {
+      "part": "P6",
+      "measure": "100",
+      "note_index": 5,
+      "lyric_index": 1,
+      "voice": "2",
+      "lyric_number": "1",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "end",
+        "text": "I'll",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": null,
+        "syllabic": "single",
+        "text": "I'll",
+        "extend": null
+      },
+      "reason": "Repaired an impossible begin/middle/end state within its stable voice lane."
+    },
+    {
+      "part": "P6",
+      "measure": "101",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "category": "lyric_lane_and_state",
+      "before": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "single",
+        "text": "ry",
+        "extend": null
+      },
+      "after": {
+        "number": "1",
+        "placement": "above",
+        "syllabic": "end",
+        "text": "ry",
+        "extend": null
+      },
+      "reason": "Repaired an impossible begin/middle/end state within its stable voice lane."
+    }
+  ],
+  "lyric_routing": {
+    "placement_attributes_changed": 1314,
+    "rule": {
+      "voice_1": "above",
+      "voice_2_and_later": "below",
+      "extra_lower_lane": "retain lyric number 2"
+    },
+    "extra_lower_lane_anchors": 17,
+    "by_part_and_voice": {
+      "P1": {
+        "1": {
+          "anchors": 190,
+          "above": 190,
+          "below": 0
+        }
+      },
+      "P2": {
+        "1": {
+          "anchors": 221,
+          "above": 221,
+          "below": 0
+        }
+      },
+      "P3": {
+        "1": {
+          "anchors": 244,
+          "above": 244,
+          "below": 0
+        },
+        "2": {
+          "anchors": 3,
+          "above": 0,
+          "below": 3
+        }
+      },
+      "P4": {
+        "1": {
+          "anchors": 171,
+          "above": 171,
+          "below": 0
+        },
+        "2": {
+          "anchors": 34,
+          "above": 0,
+          "below": 34
+        }
+      },
+      "P5": {
+        "1": {
+          "anchors": 207,
+          "above": 207,
+          "below": 0
+        },
+        "2": {
+          "anchors": 30,
+          "above": 0,
+          "below": 30
+        }
+      },
+      "P6": {
+        "1": {
+          "anchors": 201,
+          "above": 201,
+          "below": 0
+        },
+        "2": {
+          "anchors": 75,
+          "above": 0,
+          "below": 75
+        }
+      }
+    }
+  },
+  "ambiguity_flags": [
+    {
+      "part": "P1",
+      "measure": "115",
+      "preserved": "rearticulate freely in aleatoric style",
+      "status": "editorial_ambiguity_flagged",
+      "note": "Preserved the literal rea + rticulate concatenation; did not substitute 'articulate'."
+    },
+    {
+      "part": "P1",
+      "measure": "130",
+      "preserved": "rearticulate freely in aleatoric style",
+      "status": "editorial_ambiguity_flagged",
+      "note": "Preserved the literal rea + rticulate concatenation; did not substitute 'articulate'."
+    },
+    {
+      "part": "P2",
+      "measure": "115",
+      "preserved": "rearticulate freely in aleatoric style",
+      "status": "editorial_ambiguity_flagged",
+      "note": "Preserved the literal rea + rticulate concatenation; did not substitute 'articulate'."
+    },
+    {
+      "part": "P2",
+      "measure": "130",
+      "preserved": "rearticulate freely in aleatoric style",
+      "status": "editorial_ambiguity_flagged",
+      "note": "Preserved the literal rea + rticulate concatenation; did not substitute 'articulate'."
+    },
+    {
+      "part": "P3",
+      "measure": "130",
+      "preserved": "rearticulate freely in aleatoric style",
+      "status": "editorial_ambiguity_flagged",
+      "note": "Preserved the literal rea + rticulate concatenation; did not substitute 'articulate'."
+    }
+  ],
+  "preserved_review_items": [
+    {
+      "part": "P1",
+      "measure": "20",
+      "note_index": 2,
+      "lyric_index": 1,
+      "voice": "1",
+      "lyric_number": "1",
+      "text": "though",
+      "status": "preserved_for_editorial_review",
+      "reason": "Explicitly excluded from this definite-correction pass."
+    },
+    {
+      "status": "preserved_for_editorial_review",
+      "scope": "uncertain phrase punctuation",
+      "reason": "No punctuation beyond the captured '(Yours too.)' and 'Hmm.' cues was changed."
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "source_shape": {
+      "part_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ],
+      "measure_counts": {
+        "P1": 151,
+        "P2": 151,
+        "P3": 151,
+        "P4": 151,
+        "P5": 151,
+        "P6": 151
+      },
+      "note_count": 2787,
+      "lyric_anchor_count": 1376,
+      "lyric_text_count": 1035
+    },
+    "output_shape": {
+      "part_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ],
+      "measure_counts": {
+        "P1": 151,
+        "P2": 151,
+        "P3": 151,
+        "P4": 151,
+        "P5": 151,
+        "P6": 151
+      },
+      "note_count": 2787,
+      "lyric_anchor_count": 1376,
+      "lyric_text_count": 1032
+    },
+    "lyric_anchor_hash_before": "f8b74b712dfda04f7e9ab1a2bfc8261c468105397e9df72dd52e2ae8ebf7658e",
+    "lyric_anchor_hash_after": "f8b74b712dfda04f7e9ab1a2bfc8261c468105397e9df72dd52e2ae8ebf7658e",
+    "lyric_anchor_locations_match": true,
+    "musical_semantic_fingerprint_before": "4df5d41df580579f37cf9bc02fcd2057f1ba1f51949934e05c71f2a359fd2194",
+    "musical_semantic_fingerprint_after": "4df5d41df580579f37cf9bc02fcd2057f1ba1f51949934e05c71f2a359fd2194",
+    "musical_semantics_match": true,
+    "placement_errors": [],
+    "remaining_per_voice_syllabic_state_issues": [
+      {
+        "part": "P5",
+        "measure": "11",
+        "note_index": 7,
+        "lyric_index": 1,
+        "voice": "2",
+        "lyric_number": "1",
+        "text": "rise!",
+        "issue": "end_without_begin"
+      },
+      {
+        "part": "P5",
+        "measure": "12",
+        "note_index": 2,
+        "lyric_index": 1,
+        "voice": "1",
+        "lyric_number": "1",
+        "text": "Here!",
+        "issue": "single_before_end"
+      },
+      {
+        "part": "P6",
+        "measure": "43",
+        "note_index": 8,
+        "lyric_index": 1,
+        "voice": "2",
+        "lyric_number": "1",
+        "text": "tumn",
+        "issue": "end_without_begin"
+      },
+      {
+        "part": "P6",
+        "measure": "44",
+        "note_index": 2,
+        "lyric_index": 1,
+        "voice": "1",
+        "lyric_number": "1",
+        "text": "tumn",
+        "issue": "single_before_end"
+      }
+    ],
+    "cross_voice_handoffs_preserved": [
+      {
+        "part": "P5",
+        "measure": "11",
+        "word": "A-rise!",
+        "from_voice": "1",
+        "to_voice": "2"
+      },
+      {
+        "part": "P6",
+        "measure": "43",
+        "word": "au-tumn",
+        "from_voice": "1",
+        "to_voice": "2"
+      }
+    ]
+  }
+}

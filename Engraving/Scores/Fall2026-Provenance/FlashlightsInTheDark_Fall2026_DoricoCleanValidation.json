@@ -1,0 +1,15 @@
+{
+  "ledger_rows": 388,
+  "baseline_lyric_coordinates": 1376,
+  "export_lyric_coordinates": 1376,
+  "matched_targets": 388,
+  "baseline_precondition_failures": 0,
+  "target_mismatches": 0,
+  "unchanged_lyric_mismatches": 0,
+  "baseline_precondition_preview": [],
+  "target_mismatch_preview": [],
+  "unchanged_mismatch_preview": [],
+  "baseline_structure_fingerprint": "82a6cfbb1b1856cf5af9a733c04df58ee2eeaacd2e611213de1b45ec6df3e111",
+  "export_structure_fingerprint": "82a6cfbb1b1856cf5af9a733c04df58ee2eeaacd2e611213de1b45ec6df3e111",
+  "structure_matches": true
+}
