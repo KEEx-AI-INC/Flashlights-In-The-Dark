@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "v36-light-show-mvp-review-1",
+  "artifactType": "privacy-safe-full-duration-review-video",
+  "designation": "composer-designated-minimum-viable-draft",
+  "designatedOn": "2026-09-01",
+  "runtimeEligible": false,
+  "privacySafe": true,
+  "render": {
+    "path": "Visual-Production/Demos/V36-Minimum-Viable-Draft-2026-09-01/FlashlightsInTheDark_v36_MinimumViableLightShowDraft_2026-09-01.mp4",
+    "sha256": "aeb7ca020ff3ede3b47f39024bd137a3394befa3905dc1211989137571f8c146",
+    "durationSeconds": "440.200000",
+    "video": {
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "framesPerSecond": "30/1",
+      "frameCount": 13206,
+      "pixelFormat": "yuv420p"
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": 48000,
+      "channels": 2,
+      "copiedWithoutReencoding": true,
+      "adtsPacketStreamSha256": "f1a2b040b351eeb5fc8b8964dd5341813e849d57d207b5cfc26667be9d4b0220"
+    }
+  },
+  "silentRenderSha256": "6b22237a178b33c438708d55540a064ada5a454a31278c0bd0f1c0e776c3389b",
+  "sources": {
+    "scoreMusicXmlSha256": "251aa4e216ac7bcd0716aaf8efd09a4a7fd259ffaeae1384ba384648ed70e216",
+    "lightActivitySha256": "8965e556771ddf72ce01a64af9a03c10df2b9503d85023328e782469e98d21e7",
+    "shadowActivitySha256": "de0c6b17e6d93af081c4f599d3a9ae0c7abb032d34cbd29cbd13b31df43e076e",
+    "topologySha256": "2251c3e6c8414d9934e2e4228644b4f14d089577ef21013616631bd5ad3b5a9f",
+    "topologyManifestSha256": "acd2568bb84519c85e8bd4a5b82352a21039cb454287638437966a5a5a98c710",
+    "decorativeTextureSha256": "3343ddf98cf52cab77b8e1801fc750f1763055f7518321ef20fba5c1e42cf206",
+    "lyricsSha256": "41ac4dd526c675c343e23d0ef663bc0e86a13824f7baae0466d6889322050c88",
+    "rendererSha256": "3deb54ca06635c52073e97da12cc6758ba53f6496f02873ac6a87447ab4b4ad4"
+  },
+  "timing": {
+    "scoreOriginAudioSeconds": "9.559058823529",
+    "measure104BoundaryAudioSeconds": "298.6276862745",
+    "firstPostHandoffAttackAudioSeconds": "299.4610196078",
+    "globalDarkWindowMilliseconds": "833.3333333"
+  },
+  "validation": {
+    "fullAudioVideoDecode": "pass",
+    "sourceAndRenderAudioPacketStreamsIdentical": true,
+    "focusedTests": "16/16 pass",
+    "inspectedEncodedFramesSeconds": [
+      "0",
+      "200",
+      "298.8",
+      "300",
+      "426.861",
+      "440.1"
+    ],
+    "inspectionFindings": [
+      "anonymous 59-seat shell geometry remains contained",
+      "pre-M104 illumination remains on the right stage",
+      "M104 dark handoff is visible",
+      "post-M104 illumination is distributed across both stage halves",
+      "ending returns to black",
+      "no performer identifiers are displayed"
+    ]
+  }
+}

@@ -25,6 +25,16 @@ regeneration pass.
 Read [`Documentation/Project-Management/FALL_2026_WORKING_TEXT.md`](Documentation/Project-Management/FALL_2026_WORKING_TEXT.md)
 before changing any libretto or score text.
 
+## V36 minimum-viable light-show draft
+
+The first composer-designated minimum-viable visual draft is documented in
+[`Visual-Production/Demos/V36-Minimum-Viable-Draft-2026-09-01/`](Visual-Production/Demos/V36-Minimum-Viable-Draft-2026-09-01/).
+It is derived from the canonical V36 Finale MusicXML and score-study activity
+data. It is a full-duration review artifact, not an armed runtime package or a
+claim of concert readiness. See
+[`Documentation/Project-Management/V36_LIGHT_SHOW_MVP.md`](Documentation/Project-Management/V36_LIGHT_SHOW_MVP.md)
+for the exact behavioral contract and remaining gates.
+
 ## Root map
 
 ```text

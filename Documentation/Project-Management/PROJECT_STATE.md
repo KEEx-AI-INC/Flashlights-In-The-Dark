@@ -1,6 +1,6 @@
 # PROJECT_STATE
 
-Last refreshed: August 18, 2026
+Last refreshed: September 1, 2026
 
 This file is the workspace source-of-truth map for the current repository state. It is meant to answer two questions quickly:
 
@@ -8,6 +8,29 @@ This file is the workspace source-of-truth map for the current repository state.
 2. If I change the piece structure, what else do I have to touch?
 
 ## Current Canonical State
+
+### September 1 V36 override
+
+The following statements supersede older v26-era "current" designations in
+the historical inventory below:
+
+- The canonical score basis for all new light-show authoring is
+  `Engraving/Scores/FlashlightsInTheDark_v36_FinaleExport_2026-08-29.musicxml`.
+- The composer-designated first minimum-viable visual draft is
+  `Visual-Production/Demos/V36-Minimum-Viable-Draft-2026-09-01/`.
+- The V36 note-activity and 30-primary-plus-6-reserve topology artifacts are
+  authoring/review sources. They are not runtime manifests.
+- Existing v26 recipes, profiles, and application copies are preserved as
+  legacy provenance only. They have not been musically remapped to V36 and
+  must not be interpreted as an active V36 show.
+- No runtime is rearmed by this milestone. Concert readiness still requires
+  fixed-master verification, startup-all-dark proof, physical-device and
+  failover rehearsals, and venue acceptance.
+
+The decision-complete milestone record is
+`Documentation/Project-Management/V36_LIGHT_SHOW_MVP.md`. Remaining content in
+this file describes the inherited v26 runtime inventory unless explicitly
+marked V36.
 
 - Editorial working text for the Fall 2026 edition:
   `Documentation/Project-Management/FALL_2026_WORKING_TEXT.md`

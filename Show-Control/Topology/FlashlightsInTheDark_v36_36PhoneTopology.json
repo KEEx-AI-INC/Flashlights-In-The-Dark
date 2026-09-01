@@ -1,0 +1,1574 @@
+{
+  "schemaVersion": "v36-36-phone-topology-1",
+  "artifactType": "anonymous-v36-primary-and-hot-reserve-topology",
+  "status": "rehearsal-foundation-not-runtime-ready",
+  "runtimeEligible": false,
+  "seed": 20260831,
+  "source": {
+    "scorePath": "Engraving/Scores/FlashlightsInTheDark_v36_FinaleExport_2026-08-29.musicxml",
+    "scoreSha256": "251aa4e216ac7bcd0716aaf8efd09a4a7fd259ffaeae1384ba384648ed70e216",
+    "lightActivityPath": "Engraving/Score-Study/FlashlightsInTheDark_v36_LightChorusNoteActivity.json",
+    "lightActivitySha256": "8965e556771ddf72ce01a64af9a03c10df2b9503d85023328e782469e98d21e7",
+    "privateRosterRetained": false,
+    "performerNamesEncoded": false
+  },
+  "counts": {
+    "singers": 59,
+    "shadowSingers": 28,
+    "lightSingers": 31,
+    "registeredEndpoints": 36,
+    "primaryEndpoints": 30,
+    "reserveEndpoints": 6,
+    "primaryPerSide": 15,
+    "reservePerSide": 3,
+    "eligibleBeforeM104": {
+      "left": 0,
+      "right": 15
+    },
+    "eligibleFromM104": {
+      "left": 12,
+      "right": 12
+    }
+  },
+  "phaseBoundary": {
+    "measure": 104,
+    "cumulativeQuarter": "381",
+    "audioSeconds": "298.6276862745",
+    "firstSharedAttackCumulativeQuarter": "382",
+    "firstSharedAttackAudioSeconds": "299.4610196078",
+    "globalDarkWindowMilliseconds": "833.3333333",
+    "eventOrdering": [
+      "panic-latch",
+      "deactivate-and-release-old-phase-routes",
+      "activate-new-phase-routes-dark",
+      "resolve-deferred-health-and-failover",
+      "apply-note-gates-at-first-attack"
+    ]
+  },
+  "automaticTakeoverPolicy": {
+    "sameSideOnly": true,
+    "crossSideRequiresOperatorConfirmation": true,
+    "candidateSort": [
+      "squaredDistance",
+      "reservePriorityRank",
+      "homePositionId",
+      "endpointId"
+    ],
+    "inactivePrimaryMayActAsReserve": false
+  },
+  "selectionPolicy": {
+    "primaryRowQuotasPerSide": [
+      3,
+      4,
+      4,
+      4
+    ],
+    "postM104RowQuotasPerSide": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "lightPrimaryLaneQuotas": {
+      "soprano_l1": 2,
+      "soprano_l2": 2,
+      "tenor_l": 3,
+      "bass_l": 3,
+      "alto_l2": 3,
+      "alto_l1": 2
+    },
+    "lightPostM104LaneQuotas": {
+      "soprano_l1": 2,
+      "soprano_l2": 2,
+      "tenor_l": 2,
+      "bass_l": 2,
+      "alto_l2": 2,
+      "alto_l1": 2
+    },
+    "shadowPrimaryLaneQuotas": {
+      "soprano_s": 5,
+      "alto_s": 5,
+      "baritone_s": 5
+    },
+    "shadowPostM104LaneQuotas": {
+      "soprano_s": 4,
+      "alto_s": 4,
+      "baritone_s": 4
+    },
+    "reserveConstraints": {
+      "distinctRowsPerSide": 3,
+      "allFourRowsRepresentedGlobally": true,
+      "objective": [
+        "maximize-minimum-pair-distance",
+        "minimize-worst-same-side-primary-distance",
+        "maximize-total-pair-distance",
+        "seeded-sha256-tie-break"
+      ]
+    }
+  },
+  "seatGeometry": [
+    {
+      "position_id": "r1c1",
+      "row": 1,
+      "column": 1,
+      "normalized_x": 0.15,
+      "normalized_y": 0.444445,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "soprano_s"
+    },
+    {
+      "position_id": "r1c2",
+      "row": 1,
+      "column": 2,
+      "normalized_x": 0.2,
+      "normalized_y": 0.392407,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "soprano_s"
+    },
+    {
+      "position_id": "r1c3",
+      "row": 1,
+      "column": 3,
+      "normalized_x": 0.25,
+      "normalized_y": 0.354272,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "soprano_s"
+    },
+    {
+      "position_id": "r1c4",
+      "row": 1,
+      "column": 4,
+      "normalized_x": 0.3,
+      "normalized_y": 0.325876,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "alto_s"
+    },
+    {
+      "position_id": "r1c5",
+      "row": 1,
+      "column": 5,
+      "normalized_x": 0.35,
+      "normalized_y": 0.305165,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "alto_s"
+    },
+    {
+      "position_id": "r1c6",
+      "row": 1,
+      "column": 6,
+      "normalized_x": 0.4,
+      "normalized_y": 0.290998,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "baritone_s"
+    },
+    {
+      "position_id": "r1c7",
+      "row": 1,
+      "column": 7,
+      "normalized_x": 0.45,
+      "normalized_y": 0.282723,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "baritone_s"
+    },
+    {
+      "position_id": "r1c8",
+      "row": 1,
+      "column": 8,
+      "normalized_x": 0.5,
+      "normalized_y": 0.28,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "tenor_l"
+    },
+    {
+      "position_id": "r1c9",
+      "row": 1,
+      "column": 9,
+      "normalized_x": 0.55,
+      "normalized_y": 0.282723,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "tenor_l"
+    },
+    {
+      "position_id": "r1c10",
+      "row": 1,
+      "column": 10,
+      "normalized_x": 0.6,
+      "normalized_y": 0.290998,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "bass_l"
+    },
+    {
+      "position_id": "r1c11",
+      "row": 1,
+      "column": 11,
+      "normalized_x": 0.65,
+      "normalized_y": 0.305165,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "alto_l2"
+    },
+    {
+      "position_id": "r1c12",
+      "row": 1,
+      "column": 12,
+      "normalized_x": 0.7,
+      "normalized_y": 0.325876,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "alto_l2"
+    },
+    {
+      "position_id": "r1c13",
+      "row": 1,
+      "column": 13,
+      "normalized_x": 0.75,
+      "normalized_y": 0.354272,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "soprano_l2"
+    },
+    {
+      "position_id": "r1c14",
+      "row": 1,
+      "column": 14,
+      "normalized_x": 0.8,
+      "normalized_y": 0.392407,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "soprano_l1"
+    },
+    {
+      "position_id": "r2c1",
+      "row": 2,
+      "column": 1,
+      "normalized_x": 0.175,
+      "normalized_y": 0.486273,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "soprano_s"
+    },
+    {
+      "position_id": "r2c2",
+      "row": 2,
+      "column": 2,
+      "normalized_x": 0.225,
+      "normalized_y": 0.441936,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "soprano_s"
+    },
+    {
+      "position_id": "r2c3",
+      "row": 2,
+      "column": 3,
+      "normalized_x": 0.275,
+      "normalized_y": 0.409014,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "alto_s"
+    },
+    {
+      "position_id": "r2c4",
+      "row": 2,
+      "column": 4,
+      "normalized_x": 0.325,
+      "normalized_y": 0.384646,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "alto_s"
+    },
+    {
+      "position_id": "r2c5",
+      "row": 2,
+      "column": 5,
+      "normalized_x": 0.375,
+      "normalized_y": 0.367313,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "baritone_s"
+    },
+    {
+      "position_id": "r2c6",
+      "row": 2,
+      "column": 6,
+      "normalized_x": 0.425,
+      "normalized_y": 0.356151,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "baritone_s"
+    },
+    {
+      "position_id": "r2c7",
+      "row": 2,
+      "column": 7,
+      "normalized_x": 0.475,
+      "normalized_y": 0.350679,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "baritone_s"
+    },
+    {
+      "position_id": "r2c8",
+      "row": 2,
+      "column": 8,
+      "normalized_x": 0.525,
+      "normalized_y": 0.350679,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "tenor_l"
+    },
+    {
+      "position_id": "r2c9",
+      "row": 2,
+      "column": 9,
+      "normalized_x": 0.575,
+      "normalized_y": 0.356151,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "tenor_l"
+    },
+    {
+      "position_id": "r2c10",
+      "row": 2,
+      "column": 10,
+      "normalized_x": 0.625,
+      "normalized_y": 0.367313,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "bass_l"
+    },
+    {
+      "position_id": "r2c11",
+      "row": 2,
+      "column": 11,
+      "normalized_x": 0.675,
+      "normalized_y": 0.384646,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "alto_l2"
+    },
+    {
+      "position_id": "r2c12",
+      "row": 2,
+      "column": 12,
+      "normalized_x": 0.725,
+      "normalized_y": 0.409014,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "alto_l2"
+    },
+    {
+      "position_id": "r2c13",
+      "row": 2,
+      "column": 13,
+      "normalized_x": 0.775,
+      "normalized_y": 0.441936,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "alto_l1"
+    },
+    {
+      "position_id": "r2c14",
+      "row": 2,
+      "column": 14,
+      "normalized_x": 0.825,
+      "normalized_y": 0.486273,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "soprano_l2"
+    },
+    {
+      "position_id": "r2c15",
+      "row": 2,
+      "column": 15,
+      "normalized_x": 0.875,
+      "normalized_y": 0.548493,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "soprano_l1"
+    },
+    {
+      "position_id": "r3c1",
+      "row": 3,
+      "column": 1,
+      "normalized_x": 0.15,
+      "normalized_y": 0.584445,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "soprano_s"
+    },
+    {
+      "position_id": "r3c2",
+      "row": 3,
+      "column": 2,
+      "normalized_x": 0.2,
+      "normalized_y": 0.532407,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "soprano_s"
+    },
+    {
+      "position_id": "r3c3",
+      "row": 3,
+      "column": 3,
+      "normalized_x": 0.25,
+      "normalized_y": 0.494272,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "alto_s"
+    },
+    {
+      "position_id": "r3c4",
+      "row": 3,
+      "column": 4,
+      "normalized_x": 0.3,
+      "normalized_y": 0.465876,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "alto_s"
+    },
+    {
+      "position_id": "r3c5",
+      "row": 3,
+      "column": 5,
+      "normalized_x": 0.35,
+      "normalized_y": 0.445165,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "baritone_s"
+    },
+    {
+      "position_id": "r3c6",
+      "row": 3,
+      "column": 6,
+      "normalized_x": 0.4,
+      "normalized_y": 0.430998,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "baritone_s"
+    },
+    {
+      "position_id": "r3c7",
+      "row": 3,
+      "column": 7,
+      "normalized_x": 0.45,
+      "normalized_y": 0.422723,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "baritone_s"
+    },
+    {
+      "position_id": "r3c8",
+      "row": 3,
+      "column": 8,
+      "normalized_x": 0.5,
+      "normalized_y": 0.42,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "tenor_l"
+    },
+    {
+      "position_id": "r3c9",
+      "row": 3,
+      "column": 9,
+      "normalized_x": 0.55,
+      "normalized_y": 0.422723,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "bass_l"
+    },
+    {
+      "position_id": "r3c10",
+      "row": 3,
+      "column": 10,
+      "normalized_x": 0.6,
+      "normalized_y": 0.430998,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "bass_l"
+    },
+    {
+      "position_id": "r3c11",
+      "row": 3,
+      "column": 11,
+      "normalized_x": 0.65,
+      "normalized_y": 0.445165,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "alto_l2"
+    },
+    {
+      "position_id": "r3c12",
+      "row": 3,
+      "column": 12,
+      "normalized_x": 0.7,
+      "normalized_y": 0.465876,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "alto_l1"
+    },
+    {
+      "position_id": "r3c13",
+      "row": 3,
+      "column": 13,
+      "normalized_x": 0.75,
+      "normalized_y": 0.494272,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "alto_l1"
+    },
+    {
+      "position_id": "r3c14",
+      "row": 3,
+      "column": 14,
+      "normalized_x": 0.8,
+      "normalized_y": 0.532407,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "soprano_l2"
+    },
+    {
+      "position_id": "r3c15",
+      "row": 3,
+      "column": 15,
+      "normalized_x": 0.85,
+      "normalized_y": 0.584445,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "soprano_l1"
+    },
+    {
+      "position_id": "r4c1",
+      "row": 4,
+      "column": 1,
+      "normalized_x": 0.175,
+      "normalized_y": 0.626273,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "soprano_s"
+    },
+    {
+      "position_id": "r4c2",
+      "row": 4,
+      "column": 2,
+      "normalized_x": 0.225,
+      "normalized_y": 0.581936,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "soprano_s"
+    },
+    {
+      "position_id": "r4c3",
+      "row": 4,
+      "column": 3,
+      "normalized_x": 0.275,
+      "normalized_y": 0.549014,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "alto_s"
+    },
+    {
+      "position_id": "r4c4",
+      "row": 4,
+      "column": 4,
+      "normalized_x": 0.325,
+      "normalized_y": 0.524646,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "alto_s"
+    },
+    {
+      "position_id": "r4c5",
+      "row": 4,
+      "column": 5,
+      "normalized_x": 0.375,
+      "normalized_y": 0.507313,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "baritone_s"
+    },
+    {
+      "position_id": "r4c6",
+      "row": 4,
+      "column": 6,
+      "normalized_x": 0.425,
+      "normalized_y": 0.496151,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "baritone_s"
+    },
+    {
+      "position_id": "r4c7",
+      "row": 4,
+      "column": 7,
+      "normalized_x": 0.475,
+      "normalized_y": 0.490679,
+      "side": "left",
+      "chorus": "shadow",
+      "lane_key": "baritone_s"
+    },
+    {
+      "position_id": "r4c8",
+      "row": 4,
+      "column": 8,
+      "normalized_x": 0.525,
+      "normalized_y": 0.490679,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "tenor_l"
+    },
+    {
+      "position_id": "r4c9",
+      "row": 4,
+      "column": 9,
+      "normalized_x": 0.575,
+      "normalized_y": 0.496151,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "bass_l"
+    },
+    {
+      "position_id": "r4c10",
+      "row": 4,
+      "column": 10,
+      "normalized_x": 0.625,
+      "normalized_y": 0.507313,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "bass_l"
+    },
+    {
+      "position_id": "r4c11",
+      "row": 4,
+      "column": 11,
+      "normalized_x": 0.675,
+      "normalized_y": 0.524646,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "alto_l2"
+    },
+    {
+      "position_id": "r4c12",
+      "row": 4,
+      "column": 12,
+      "normalized_x": 0.725,
+      "normalized_y": 0.549014,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "alto_l1"
+    },
+    {
+      "position_id": "r4c13",
+      "row": 4,
+      "column": 13,
+      "normalized_x": 0.775,
+      "normalized_y": 0.581936,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "alto_l1"
+    },
+    {
+      "position_id": "r4c14",
+      "row": 4,
+      "column": 14,
+      "normalized_x": 0.825,
+      "normalized_y": 0.626273,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "soprano_l2"
+    },
+    {
+      "position_id": "r4c15",
+      "row": 4,
+      "column": 15,
+      "normalized_x": 0.875,
+      "normalized_y": 0.688493,
+      "side": "right",
+      "chorus": "light",
+      "lane_key": "soprano_l1"
+    }
+  ],
+  "endpoints": [
+    {
+      "endpointId": "endpoint-01",
+      "homePositionId": "r1c3",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-02",
+      "homePositionId": "r1c4",
+      "side": "left",
+      "role": "reserve",
+      "normallyDark": true,
+      "reservePriorityRank": 3
+    },
+    {
+      "endpointId": "endpoint-03",
+      "homePositionId": "r1c5",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-04",
+      "homePositionId": "r1c7",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-05",
+      "homePositionId": "r1c8",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-06",
+      "homePositionId": "r1c9",
+      "side": "right",
+      "role": "reserve",
+      "normallyDark": true,
+      "reservePriorityRank": 5
+    },
+    {
+      "endpointId": "endpoint-07",
+      "homePositionId": "r1c10",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-08",
+      "homePositionId": "r1c12",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-09",
+      "homePositionId": "r2c1",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-10",
+      "homePositionId": "r2c2",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-11",
+      "homePositionId": "r2c4",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-12",
+      "homePositionId": "r2c7",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-13",
+      "homePositionId": "r2c8",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-14",
+      "homePositionId": "r2c11",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-15",
+      "homePositionId": "r2c12",
+      "side": "right",
+      "role": "reserve",
+      "normallyDark": true,
+      "reservePriorityRank": 1
+    },
+    {
+      "endpointId": "endpoint-16",
+      "homePositionId": "r2c13",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-17",
+      "homePositionId": "r2c15",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-18",
+      "homePositionId": "r3c1",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-19",
+      "homePositionId": "r3c2",
+      "side": "left",
+      "role": "reserve",
+      "normallyDark": true,
+      "reservePriorityRank": 2
+    },
+    {
+      "endpointId": "endpoint-20",
+      "homePositionId": "r3c3",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-21",
+      "homePositionId": "r3c4",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-22",
+      "homePositionId": "r3c7",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-23",
+      "homePositionId": "r3c8",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-24",
+      "homePositionId": "r3c10",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-25",
+      "homePositionId": "r3c12",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-26",
+      "homePositionId": "r3c14",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-27",
+      "homePositionId": "r3c15",
+      "side": "right",
+      "role": "reserve",
+      "normallyDark": true,
+      "reservePriorityRank": 6
+    },
+    {
+      "endpointId": "endpoint-28",
+      "homePositionId": "r4c2",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-29",
+      "homePositionId": "r4c3",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-30",
+      "homePositionId": "r4c5",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-31",
+      "homePositionId": "r4c6",
+      "side": "left",
+      "role": "reserve",
+      "normallyDark": true,
+      "reservePriorityRank": 4
+    },
+    {
+      "endpointId": "endpoint-32",
+      "homePositionId": "r4c7",
+      "side": "left",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-33",
+      "homePositionId": "r4c9",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-34",
+      "homePositionId": "r4c11",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-35",
+      "homePositionId": "r4c14",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    },
+    {
+      "endpointId": "endpoint-36",
+      "homePositionId": "r4c15",
+      "side": "right",
+      "role": "primary",
+      "normallyDark": false
+    }
+  ],
+  "routes": [
+    {
+      "routeId": "route-left-01",
+      "homePositionId": "r1c3",
+      "defaultEndpointId": "endpoint-01",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "soprano_s",
+          "laneReplica": 0
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-02",
+      "homePositionId": "r1c5",
+      "defaultEndpointId": "endpoint-03",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_s",
+          "laneReplica": 0
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-03",
+      "homePositionId": "r1c7",
+      "defaultEndpointId": "endpoint-04",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "baritone_s",
+          "laneReplica": 0
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-04",
+      "homePositionId": "r2c1",
+      "defaultEndpointId": "endpoint-09",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "soprano_s",
+          "laneReplica": 1
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-05",
+      "homePositionId": "r2c2",
+      "defaultEndpointId": "endpoint-10",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "soprano_s",
+          "laneReplica": 2
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-06",
+      "homePositionId": "r2c4",
+      "defaultEndpointId": "endpoint-11",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_s",
+          "laneReplica": 1
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-07",
+      "homePositionId": "r2c7",
+      "defaultEndpointId": "endpoint-12",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-08",
+      "homePositionId": "r3c1",
+      "defaultEndpointId": "endpoint-18",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "soprano_s",
+          "laneReplica": 3
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-09",
+      "homePositionId": "r3c3",
+      "defaultEndpointId": "endpoint-20",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-10",
+      "homePositionId": "r3c4",
+      "defaultEndpointId": "endpoint-21",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_s",
+          "laneReplica": 2
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-11",
+      "homePositionId": "r3c7",
+      "defaultEndpointId": "endpoint-22",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "baritone_s",
+          "laneReplica": 1
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-12",
+      "homePositionId": "r4c2",
+      "defaultEndpointId": "endpoint-28",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-13",
+      "homePositionId": "r4c3",
+      "defaultEndpointId": "endpoint-29",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_s",
+          "laneReplica": 3
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-14",
+      "homePositionId": "r4c5",
+      "defaultEndpointId": "endpoint-30",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "baritone_s",
+          "laneReplica": 2
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-left-15",
+      "homePositionId": "r4c7",
+      "defaultEndpointId": "endpoint-32",
+      "side": "left",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "baritone_s",
+          "laneReplica": 3
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-01",
+      "homePositionId": "r1c8",
+      "defaultEndpointId": "endpoint-05",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "tenor_l",
+          "laneReplica": 0
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "tenor_l",
+          "laneReplica": 0
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-02",
+      "homePositionId": "r1c10",
+      "defaultEndpointId": "endpoint-07",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "bass_l",
+          "laneReplica": 0
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "bass_l",
+          "laneReplica": 0
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-03",
+      "homePositionId": "r1c12",
+      "defaultEndpointId": "endpoint-08",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_l2",
+          "laneReplica": 0
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_l2",
+          "laneReplica": 0
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-04",
+      "homePositionId": "r2c8",
+      "defaultEndpointId": "endpoint-13",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "tenor_l",
+          "laneReplica": 1
+        },
+        "fromM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-05",
+      "homePositionId": "r2c11",
+      "defaultEndpointId": "endpoint-14",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_l2",
+          "laneReplica": 1
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_l2",
+          "laneReplica": 1
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-06",
+      "homePositionId": "r2c13",
+      "defaultEndpointId": "endpoint-16",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_l1",
+          "laneReplica": 0
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_l1",
+          "laneReplica": 0
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-07",
+      "homePositionId": "r2c15",
+      "defaultEndpointId": "endpoint-17",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "soprano_l1",
+          "laneReplica": 0
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "soprano_l1",
+          "laneReplica": 0
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-08",
+      "homePositionId": "r3c8",
+      "defaultEndpointId": "endpoint-23",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "tenor_l",
+          "laneReplica": 2
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "tenor_l",
+          "laneReplica": 1
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-09",
+      "homePositionId": "r3c10",
+      "defaultEndpointId": "endpoint-24",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "bass_l",
+          "laneReplica": 1
+        },
+        "fromM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-10",
+      "homePositionId": "r3c12",
+      "defaultEndpointId": "endpoint-25",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_l1",
+          "laneReplica": 1
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_l1",
+          "laneReplica": 1
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-11",
+      "homePositionId": "r3c14",
+      "defaultEndpointId": "endpoint-26",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "soprano_l2",
+          "laneReplica": 0
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "soprano_l2",
+          "laneReplica": 0
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-12",
+      "homePositionId": "r4c9",
+      "defaultEndpointId": "endpoint-33",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "bass_l",
+          "laneReplica": 2
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "bass_l",
+          "laneReplica": 1
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-13",
+      "homePositionId": "r4c11",
+      "defaultEndpointId": "endpoint-34",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "alto_l2",
+          "laneReplica": 2
+        },
+        "fromM104": {
+          "artisticallyEligible": false,
+          "laneKey": null,
+          "laneReplica": null
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-14",
+      "homePositionId": "r4c14",
+      "defaultEndpointId": "endpoint-35",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "soprano_l2",
+          "laneReplica": 1
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "soprano_l2",
+          "laneReplica": 1
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    },
+    {
+      "routeId": "route-right-15",
+      "homePositionId": "r4c15",
+      "defaultEndpointId": "endpoint-36",
+      "side": "right",
+      "phases": {
+        "beforeM104": {
+          "artisticallyEligible": true,
+          "laneKey": "soprano_l1",
+          "laneReplica": 1
+        },
+        "fromM104": {
+          "artisticallyEligible": true,
+          "laneKey": "soprano_l1",
+          "laneReplica": 1
+        }
+      },
+      "strictNoteGateRequired": true,
+      "mayBecomeReserveWhenInactive": false
+    }
+  ],
+  "validation": {
+    "allIdsAnonymous": true,
+    "allReserveEndpointsNormallyDark": true,
+    "allRoutesHaveOneDefaultPrimary": true,
+    "noPrimaryBecomesReserveWhenPhaseInactive": true,
+    "reserveSides": {
+      "left": 3,
+      "right": 3
+    }
+  },
+  "manifestSha256": "acd2568bb84519c85e8bd4a5b82352a21039cb454287638437966a5a5a98c710"
+}

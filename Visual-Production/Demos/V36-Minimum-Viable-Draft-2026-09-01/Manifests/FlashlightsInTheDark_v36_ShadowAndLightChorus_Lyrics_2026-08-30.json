@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "v36-review-lyrics-1",
+  "artifactType": "review-only-lyric-overlay-source",
+  "runtimeEligible": false,
+  "scoreSource": {
+    "path": "Engraving/Scores/FlashlightsInTheDark_v36_FinaleExport_2026-08-29.musicxml",
+    "sha256": "251aa4e216ac7bcd0716aaf8efd09a4a7fd259ffaeae1384ba384648ed70e216"
+  },
+  "activitySource": {
+    "path": "Engraving/Score-Study/FlashlightsInTheDark_v36_LightChorusNoteActivity.json",
+    "sha256": "8965e556771ddf72ce01a64af9a03c10df2b9503d85023328e782469e98d21e7"
+  },
+  "scoreOriginSeconds": "20313/2125",
+  "outputDurationSeconds": "2641/6",
+  "sourceLyricSpanCount": 1102,
+  "displaySegmentCount": 1037,
+  "modules": {
+    "lowerLeft": {
+      "chorus": "Shadow",
+      "rows": [
+        "Soprano",
+        "Alto",
+        "Baritone"
+      ],
+      "sourceParts": [
+        "P1",
+        "P2",
+        "P3"
+      ]
+    },
+    "lowerRight": {
+      "chorus": "Light",
+      "rows": [
+        "Soprano",
+        "Alto",
+        "Tenor/Bass"
+      ],
+      "sourceParts": [
+        "P4",
+        "P5",
+        "P6"
+      ],
+      "divisiDisplay": "role-qualified when simultaneous texts differ"
+    }
+  },
+  "lyricPolicy": {
+    "source": "MusicXML lyric elements on performed pitched notes",
+    "syllabicMarkers": "en dash marks begin, middle, and end syllables",
+    "extensions": "sustain the displayed syllable through MusicXML extend stop",
+    "rests": "blank",
+    "simultaneousDuplicates": "deduplicated for display only",
+    "scoreTextChanged": false
+  },
+  "assOutput": "/Users/JDNelson/.codex/worktrees/bcbb/Flashlights-In-The-Dark/Visual-Production/Review-Renders/V36-Note-Synchronous-Review-2026-08-30/Lyrics/FlashlightsInTheDark_v36_ShadowAndLightChorus_Lyrics_2026-08-30.ass",
+  "assSha256": "aae9f5d1e56cb741bd69691f557b596bd17e98e54eb2324fde80f09e377c5f45"
+}
