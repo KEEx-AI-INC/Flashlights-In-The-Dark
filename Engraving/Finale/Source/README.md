@@ -11,6 +11,14 @@ unchanged. When a Finale working file is needed, create it deliberately from
 the approved MusicXML baseline or from a documented archival recovery, give it
 a Fall 2026-specific name, and keep it outside `Source_Archive/`.
 
+## v35 meter reference
+
+For the currently saved v35 Finale working score, use
+`FlashlightsInTheDark_v35_meter-map.musicxml` as the authoritative MusicXML
+reference for meter mapping. Its documented measure boundaries are in
+`METER_MAP_v35.md`. This reference supersedes older meter assumptions only; it
+does not supersede the established text or layout sources.
+
 Before changing text, read
 `../../../Documentation/Project-Management/FALL_2026_WORKING_TEXT.md`. The
 Fall text preserves 88 stable cue IDs; do not use this cleanup to modify
